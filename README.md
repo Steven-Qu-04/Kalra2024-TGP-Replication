@@ -11,6 +11,7 @@
 利用 F1 杂交种的等位基因特异性表达（ASE）量化各因子的分子调控逻辑。
 
 ## 📂 Repository Structure / 目录结构
+```
 ├── scripts/                        # Core analysis scripts / 核心分析脚本
 │   ├── Main_script.R               # Main pipeline execution / 主流程执行脚本
 │   ├── Custom_functions.R          # Helper functions for Q-value & linear models / 自定义功能函数
@@ -44,6 +45,7 @@
 │
 └── docs/
     └── 42003_2024_Article_7255.pdf # Reference paper (Kalra et al., 2024) / 参考原文文献
+```
 ## 📝 File Descriptions / 文件详细说明
 Main_script.R: The entry point of the project. It integrates data merging, linear modeling, and result export. (项目主程序，整合数据合并、模型构建与结果导出)
 Custom_functions.R: Contains the logic for the Dynamic Q-value selection strategy, essential for identifying subtle interaction effects. (包含本项目核心的“动态 Q 值”选取逻辑)
